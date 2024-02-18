@@ -1710,27 +1710,26 @@
     url-loader "^4.1.1"
     webpack "^5.88.1"
 
-"@ephys/eslint-config-typescript@19.0.2":
-  version "19.0.2"
-  resolved "https://registry.yarnpkg.com/@ephys/eslint-config-typescript/-/eslint-config-typescript-19.0.2.tgz#53ca3acaf741126e1d8302da1537e95cbd33209a"
-  integrity sha512-poWjpwmHWseBZD74Q8J7RR993hFnsUMvEYeoETkNKh7HaeLtfMXmcH43y4e/u64OsUuZIrMRZ3YYAEpakr7g2A==
+"@ephys/eslint-config-typescript@20.0.0":
+  version "20.0.0"
+  resolved "https://registry.yarnpkg.com/@ephys/eslint-config-typescript/-/eslint-config-typescript-20.0.0.tgz#3586334365ee0e5273285373dd777618ea41287d"
+  integrity sha512-0Y5Ht/wv1TliEwD0Fiu0Oay5w2xLcDAarwPMf+bytZjF0TUwCITMl0Oshgs8zrO1d04APFKA9YVSQFcxLF/1FQ==
   dependencies:
-    "@ephys/eslint-config" "^19.0.2"
+    "@ephys/eslint-config" "^20.0.0"
     "@typescript-eslint/eslint-plugin" "^5.58.0"
     "@typescript-eslint/parser" "^5.58.0"
     eslint-import-resolver-typescript "^3.5.5"
 
-"@ephys/eslint-config@^19.0.2":
-  version "19.0.2"
-  resolved "https://registry.yarnpkg.com/@ephys/eslint-config/-/eslint-config-19.0.2.tgz#f9adc763a61cf683a65a761b49ab35c9354374d3"
-  integrity sha512-WvWiebxqBHwDqcAxNLFRVabZK8bCPf44RO0OGttwUxnPpDzB4aMrZP5xZTFqw5hfQdA7pD/TdY++hIHFzRQx9w==
+"@ephys/eslint-config@^20.0.0":
+  version "20.0.0"
+  resolved "https://registry.yarnpkg.com/@ephys/eslint-config/-/eslint-config-20.0.0.tgz#1d3e6709c9c2253c5d0c882053097a216bedd559"
+  integrity sha512-MT4zDQlQAsPHBb5BHp/3PrZ6lwc/BuNa0IDQsl4C3zE8S3GML6twqqGGliFxE3c8+iBP9QyHE2a03KINyCkF0g==
   dependencies:
     "@babel/core" "^7.21.4"
     "@babel/eslint-parser" "^7.21.3"
     eslint "^8.38.0"
     eslint-plugin-eslint-comments "^3.2.0"
     eslint-plugin-import "^2.27.5"
-    eslint-plugin-import-newlines "^1.3.1"
     eslint-plugin-jest "^27.2.1"
     eslint-plugin-json "^3.1.0"
     eslint-plugin-jsx-a11y "^6.7.1"
@@ -1738,6 +1737,7 @@
     eslint-plugin-react "^7.32.2"
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-small-import "^1.0.0"
+    eslint-plugin-sort-destructure-keys "^1.5.0"
     eslint-plugin-unicorn "^46.0.0"
 
 "@eslint-community/eslint-utils@^4.1.2", "@eslint-community/eslint-utils@^4.2.0":
@@ -4840,11 +4840,6 @@ eslint-plugin-eslint-comments@^3.2.0:
     escape-string-regexp "^1.0.5"
     ignore "^5.0.5"
 
-eslint-plugin-import-newlines@^1.3.1:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import-newlines/-/eslint-plugin-import-newlines-1.3.4.tgz#c3917ae478b1dcce2a920637eaa8af001b8e1477"
-  integrity sha512-Lmf/BbK+EQKUfjKPcZpslE/KTGYlgaI8ZJ/sYzdbb3BVTg5+GmLBLHBjsUKNEVRM1SEhDTF/didtOSYKi4tSnQ==
-
 eslint-plugin-import@^2.27.5:
   version "2.29.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.29.1.tgz#d45b37b5ef5901d639c15270d74d46d161150643"
@@ -4963,6 +4958,13 @@ eslint-plugin-small-import@^1.0.0:
   integrity sha512-udQ1Eh3hP1PtAtgk5B4ie9jp4nSJjGF2ytl4OuHw8zhTBnxQ0aFCsGdY0s9RKEignYVjqtJslv8z/VQZxDziQA==
   dependencies:
     eslint "^6.7.2"
+
+eslint-plugin-sort-destructure-keys@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sort-destructure-keys/-/eslint-plugin-sort-destructure-keys-1.5.0.tgz#dc45ff119b6886d4e72d3e0ff8a528af83b89388"
+  integrity sha512-xGLyqHtbFXZNXQSvAiQ4ISBYokrbUywEhmaA50fKtSKgceCv5y3zjoNuZwcnajdM6q29Nxj+oXC9KcqfMsAPrg==
+  dependencies:
+    natural-compare-lite "^1.4.0"
 
 eslint-plugin-unicorn@^46.0.0:
   version "46.0.1"
